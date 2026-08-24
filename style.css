@@ -1,0 +1,32 @@
+:root {
+  --bs-primary: #1a5276;
+  --bs-secondary: #2980b9;
+  --bs-success: #28a745;
+  --bs-danger: #dc3545;
+  --bs-warning: #ffc107;
+}
+
+.custom-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+.bg-gradient-restaurant {
+  background: linear-gradient(135deg, #D35400, #E67E22);
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.sidebar {
+  height: 100vh;
+  padding-top: 20px;
+}
+
+
